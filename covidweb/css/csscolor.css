@@ -1,0 +1,38 @@
+
+.btn-theme {
+	background: #f23030;
+	color: #fff;
+	box-shadow: none;
+	font-size:16px;
+}
+.btn-theme:hover {
+	color: #fff;
+	background: #d12323;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.3)
+}
+.btn-theme:active, .btn-theme:focus {
+	color: #fff;
+	box-shadow: none
+}
+a {
+	color: #f23030
+}
+a:focus, a:hover {
+	color: #d12323
+}
+h1, h2, h3, h4, h5, h6 {color:#222222;}
+h3 span {color:#f23030;}
+.navbar-default .navbar-nav li a {
+	color: #fff
+}
+.navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
+	color: #f23030
+}
+.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.active a:active, .navbar-default .navbar-nav li.active a:focus, .navbar-default .navbar-nav li.active a:hover {
+	color: #f23030;
+	background: 0 0
+}
+
+.totop a {
+	background: #f23030
+}
